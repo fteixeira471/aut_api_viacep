@@ -1,0 +1,44 @@
+comum:
+  - cep: 01010-010
+    logradouro: Praça Antônio Prado
+    bairro: Centro
+    localidade: São Paulo
+    uf: SP
+    ddd: '11'
+  - cep: 58066-000
+    logradouro: Sítio Monsenhor Magno
+    bairro: Muçumagro
+    localidade: João Pessoa
+    uf: PB
+    ddd: '83'
+  - cep: 69085-170
+    logradouro: Rua Rio Anacora
+    bairro: São José Operário
+    localidade: Manaus
+    uf: AM
+    ddd: '92'
+
+generico:
+  - cep: 77695-000
+    logradouro: ''
+    bairro: ''
+    localidade: Goianorte
+    uf: TO
+    ddd: '63'
+  - cep: 35384-000
+    logradouro: ''
+    bairro: ''
+    localidade: Santa Cruz do Escalvado
+    uf: MG
+    ddd: '31'
+  - cep: 95555-000
+    logradouro: ''
+    bairro: ''
+    localidade: Capão da Canoa
+    uf: RS
+    ddd: '51'
+
+inexistente:
+  - cep: 01010-999
+  - cep: 58066-999
+  - cep: 69085-999

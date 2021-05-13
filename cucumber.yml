@@ -1,0 +1,7 @@
+<%
+  time = Time.now.strftime('%Y%m%d_%H%M%S')
+  FileUtils.mkdir_p('reports/html') unless Dir.exist?('reports')
+%>
+
+default: -f pretty --publish-quiet
+html_report: -p default -f html -o reports/html/api_report_<%= time %>.html
