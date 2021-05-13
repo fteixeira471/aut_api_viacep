@@ -24,7 +24,7 @@ $ gem i bundler
 
 ----
 ## **Executando a Automação**
-1. Antes de tudo, faça a instalação das Ferramentas informadas anteriormente. Logo, abra o terminal e faça um clone do projeto:
+1. Antes de tudo, faça a instalação das **Ferramentas** informadas anteriormente. Logo, abra o terminal e faça um clone do projeto:
 ```
 $ git clone https://github.com/fteixeira471/aut_api_viacep.git
 ```
@@ -41,8 +41,8 @@ $ bundle exec cucumber
 
 ----
 ## **Relatórios de Execução dos Testes**
-Por padrão, durante a execução dos testes, são apresentados no terminal os resultados dos testes.
-Porém, é possível gerar um relatório amigável no formato HTML, passando o [_profile_](https://cucumber.io/docs/cucumber/configuration/#profiles) **html_report**:
+Por padrão, durante a execução dos testes, são apresentados no terminal os resultados (testes que passaram e que falharam).
+Porém, é possível gerar um relatório amigável no formato HTML passando o [_profile_](https://cucumber.io/docs/cucumber/configuration/#profiles) **html_report**:
 ```
 $ bundle exec cucumber -p html_report
 ```
@@ -61,7 +61,7 @@ Foram inseridas [_tags_](https://cucumber.io/docs/cucumber/api/#tags) nos cenár
 $ bundle exec cucumber -t @cep_valido -p html_report
 
 
-> Executar todos os cenários que não são sejam de CEPs inexistentes
+> Executar todos os cenários que não sejam de CEPs inexistentes
 $ bundle exec cucumber -t 'not @cep_inexistente'
 ```
 Existem outras _tags_ disponíveis que podem ser utilizadas. Visualize no arquivo **.feature** localizado em:
